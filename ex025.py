@@ -1,2 +1,2 @@
-nm = str(input('Digite seu nome :')).strip()
-print('seu nome tem silva {}'.format('silva'== nm))
+nm = str(input('Digite seu nome completo ?:')).strip()
+print('seu nome tem silva? {}'.format('silva'in nm.lower()))
